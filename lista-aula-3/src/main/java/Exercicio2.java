@@ -9,7 +9,7 @@ public class Exercicio2 {
 
         int posicao = Arrays.binarySearch (paises, "Brasil");
         System.out.println(posicao);
-
+        
         Arrays.sort(paises, 0, paises.length);
         System.out.println(Arrays.toString(paises));
     }
